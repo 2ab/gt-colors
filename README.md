@@ -5,3 +5,6 @@ There're IIS fix here http://www.anuragbhandari.com/2012/11/hosting-meteor-js-ap
 * need to type `meteor --production` to create .meteor\local\build\static_cacheable\ folder
 * need to add `process.env.MONGO_URL = 'mongodb://localhost'` and `process.env.PORT = 3800` somewhere
 * (NOT WORK) run this app as service by NSSM - the Non-Sucking Service Manager http://nssm.cc/ `nssm install.
+* 
+* One problem is ObjectID for MongoDB that already exist --> see here https://github.com/meteor/meteor/issues/61
+* Other problem here https://github.com/oortcloud/unofficial-meteor-faq
